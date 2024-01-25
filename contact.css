@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-color: rgb(1, 43, 23);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 99px;
+  background-color: rgb(1, 32, 9);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(39, 92, 4);
+  font-size: 1.07rem;
+}
+
+.left {
+  font-size: 1.7rem;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 77px; 
+    justify-content: center;
+    margin: 151px 0;
+  }
+
+  .links div {
+    text-align: center;
+  }
+
+  .links a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links img {
+    max-width: 34px; 
+    max-height: 43px; 
+  }
+
+  .linkedin-text,
+  .github-text,
+  .blogger-text,
+  .twitter-text,
+  .insta-text {
+    margin-top: 5px;
+    font-size: 0.7rem; 
+  }
+
+footer {
+  text-align: center;
+  padding: 11px;
+  background-color: rgb(1, 19, 5);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}

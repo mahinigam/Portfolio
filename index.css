@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-color: rgb(1, 43, 23);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 99px;
+  background-color: rgb(1, 32, 9);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(39, 92, 4);
+  font-size: 1.07rem;
+}
+
+.left {
+  font-size: 1.7rem;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 99px 162px;
+}
+
+.firstSection div {
+  width: 33%;
+}
+
+.leftSection {
+  font-size: 2.9rem;
+  margin: 69px 0;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 11px;
+  background-color: rgb(1, 19, 5);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+.rightSection img {
+  width: 81%;
+}
+
+.mn {
+  color: rgb(11, 92, 11);
+}
+
+#element {
+  color: rgb(5, 114, 5);
+}
